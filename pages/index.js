@@ -51,7 +51,7 @@ export default function Home() {
         </p>
         <p className="lead">
           <Link
-            href="/portfolio"
+            href="/mit-1/portfolio"
             className="btn btn-lg btn-secondary fw-bold border-white bg-white text-black"
           >
             <a>Potfolio</a>

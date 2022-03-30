@@ -21,10 +21,18 @@ export const Header = () => {
           <Link aria-current="page" href="/mit-1">
             <a className="nav-link">Home</a>
           </Link>
-          <Link className="nav-link" aria-current="page" href="/portfolio">
+          <Link
+            className="nav-link"
+            aria-current="page"
+            href="/mit-1/portfolio"
+          >
             <a className="nav-link">Portfolio</a>
           </Link>
-          <Link className="nav-link" aria-current="page" href="/portfolio">
+          <Link
+            className="nav-link"
+            aria-current="page"
+            href="/mit-1/portfolio"
+          >
             <a className="nav-link">Contact</a>
           </Link>
         </nav>
