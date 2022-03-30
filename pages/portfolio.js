@@ -56,6 +56,7 @@ export default function Home() {
                   <a
                     href="https://jarrodmedrano.github.io/pac-men/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div
                       className="bd-placeholder-img card-img-top pacman"
@@ -80,6 +81,7 @@ export default function Home() {
                         <a
                           href="https://jarrodmedrano.github.io/pac-men/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <button
                             type="button"
@@ -91,6 +93,7 @@ export default function Home() {
                         <a
                           href="https://github.com/jarrodmedrano/pac-men"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <button
                             type="button"
@@ -109,6 +112,7 @@ export default function Home() {
                   <a
                     href="https://jarrodmedrano.github.io/eyes/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div
                       className="bd-placeholder-img card-img-top eyes"
@@ -132,6 +136,7 @@ export default function Home() {
                         <a
                           href="https://jarrodmedrano.github.io/eyes/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <button
                             type="button"
@@ -143,6 +148,7 @@ export default function Home() {
                         <a
                           href="https://github.com/jarrodmedrano/eyes"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <button
                             type="button"

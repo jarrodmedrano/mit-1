@@ -14,19 +14,19 @@ export const Header = () => {
   return (
     <header className="mb-auto">
       <div>
-        <a className="text-white" href="/">
+        <Link className="text-white" href="/">
           <h3 className="float-md-start mb-0">Jarrod Medrano</h3>
-        </a>
+        </Link>
         <nav className="nav nav-masthead justify-content-center float-md-end">
-          <a className="nav-link" aria-current="page" href="/">
+          <Link className="nav-link" aria-current="page" href="/">
             Home
-          </a>
-          <a className="nav-link" aria-current="page" href="/portfolio">
+          </Link>
+          <Link className="nav-link" aria-current="page" href="/portfolio">
             Portfolio
-          </a>
-          <a className="nav-link" aria-current="page" href="/portfolio">
+          </Link>
+          <Link className="nav-link" aria-current="page" href="/portfolio">
             Contact
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
