@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import { YoutubeVideo } from "../components/youtube";
 
 export default function Home() {
   // See https://en.reactjs.org/docs/hooks-effect.html
@@ -40,6 +41,9 @@ export default function Home() {
       </Head>
       <main className="px-3">
         <h1>Welcome</h1>
+
+        <YoutubeVideo embed="iyWLhwy39C8" />
+
         <p className="lead">
           I&rsquo;m a remote-working software engineer from El Paso, Texas.
         </p>
@@ -50,11 +54,10 @@ export default function Home() {
           portfolio with some examples of my work.
         </p>
         <p className="lead">
-          <Link
-            href="/mit-1/portfolio"
-            className="btn btn-lg btn-secondary fw-bold border-white bg-white text-black"
-          >
-            <a>Potfolio</a>
+          <Link href="/mit-1/portfolio">
+            <a className="btn btn-lg btn-secondary fw-bold border-white bg-white text-black">
+              Portfolio
+            </a>
           </Link>
         </p>
       </main>
