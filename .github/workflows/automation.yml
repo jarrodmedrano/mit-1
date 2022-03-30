@@ -1,5 +1,7 @@
 name: Build and Release Next.js web application
 on: push
+  branches:
+    - main
 jobs:
   build-project:
     name: Build Next.js application
@@ -16,3 +18,8 @@ jobs:
         with:
           name: static-site
           path: out/
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: out/
