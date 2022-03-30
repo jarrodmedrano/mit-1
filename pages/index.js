@@ -53,6 +53,11 @@ export default function Home() {
           Coding: Full Stack Development with MERN. Here you&rsquo;ll find my
           portfolio with some examples of my work.
         </p>
+        <p>
+          <Link href="https://linkedin.com/jarrod-medrano">Linkedin</Link> |{" "}
+          <Link href="https://github.com/jarrodmedrano">Github</Link> |{" "}
+          <Link href="mailto:jarrod@slashclick.com">jarrod@slashclick.com</Link>
+        </p>
         <p className="lead">
           <Link href="/mit-1/portfolio">
             <a className="btn btn-lg btn-secondary fw-bold border-white bg-white text-black">
