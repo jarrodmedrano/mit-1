@@ -44,17 +44,17 @@ export default function Home() {
           I&rsquo;m a remote-working software engineer from El Paso, Texas.
         </p>
         <p>
-          I&rsquo;m an expert in frontend web technologies such as React JS,
-          SCSS & HTML. I am studying for a Professional Certificate in Coding:
-          Full Stack Development with MERN. Here you&rsquo;ll find my portfolio
-          with some examples of my work.
+          I&rsquo;m a professional in frontend web technologies such as React
+          JS, SCSS & HTML. I am studying for a Professional Certificate in
+          Coding: Full Stack Development with MERN. Here you&rsquo;ll find my
+          portfolio with some examples of my work.
         </p>
         <p className="lead">
           <Link
             href="/portfolio"
             className="btn btn-lg btn-secondary fw-bold border-white bg-white text-black"
           >
-            Potfolio
+            <a>Potfolio</a>
           </Link>
         </p>
       </main>

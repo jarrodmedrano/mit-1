@@ -32,10 +32,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Portfolio</title>
-        <meta
-          name="description"
-          content="A demo about NextJS and Bootstrap 5"
-        />
+        <meta name="description" content="A demo of my MIT projects" />
       </Head>
 
       <main className="bg-dark text-white">
@@ -164,16 +161,22 @@ export default function Home() {
               </div>
               <div className="col">
                 <div className="card shadow-sm">
-                  <div
-                    className="bd-placeholder-img card-img-top map"
-                    width="100%"
-                    height="225"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  ></div>
+                  <a
+                    href="https://jarrodmedrano.github.io/real-time-bus/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div
+                      className="bd-placeholder-img card-img-top map"
+                      width="100%"
+                      height="225"
+                      xmlns="http://www.w3.org/2000/svg"
+                      role="img"
+                      aria-label="Placeholder: Thumbnail"
+                      preserveAspectRatio="xMidYMid slice"
+                      focusable="false"
+                    ></div>
+                  </a>
 
                   <div className="card-body bg-dark text-white">
                     <h2>Map Animation</h2>
@@ -183,18 +186,30 @@ export default function Home() {
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
-                        <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
+                        <a
+                          href="https://jarrodmedrano.github.io/real-time-bus/"
+                          target="_blank"
+                          rel="noreferrer"
                         >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-outline-secondary"
+                          >
+                            View
+                          </button>
+                        </a>
+                        <a
+                          href="https://github.com/jarrodmedrano/real-time-bus"
+                          target="_blank"
+                          rel="noreferrer"
                         >
-                          Edit
-                        </button>
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-outline-secondary"
+                          >
+                            Git
+                          </button>
+                        </a>
                       </div>
                     </div>
                   </div>

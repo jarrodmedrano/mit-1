@@ -18,14 +18,14 @@ export const Header = () => {
           <h3 className="float-md-start mb-0">Jarrod Medrano</h3>
         </Link>
         <nav className="nav nav-masthead justify-content-center float-md-end">
-          <Link className="nav-link" aria-current="page" href="/">
-            Home
+          <Link aria-current="page" href="/">
+            <a className="nav-link">Home</a>
           </Link>
           <Link className="nav-link" aria-current="page" href="/portfolio">
-            Portfolio
+            <a className="nav-link">Portfolio</a>
           </Link>
           <Link className="nav-link" aria-current="page" href="/portfolio">
-            Contact
+            <a className="nav-link">Contact</a>
           </Link>
         </nav>
       </div>
