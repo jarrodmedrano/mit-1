@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
 
-export default function Home() {
+export default function Portfolio() {
   // See https://en.reactjs.org/docs/hooks-effect.html
   useEffect(() => {
     // Run code on client-side only : ensure document is here

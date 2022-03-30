@@ -28,11 +28,7 @@ export const Header = () => {
           >
             <a className="nav-link">Portfolio</a>
           </Link>
-          <Link
-            className="nav-link"
-            aria-current="page"
-            href="/mit-1/portfolio"
-          >
+          <Link className="nav-link" aria-current="page" href="/mit-1/contact">
             <a className="nav-link">Contact</a>
           </Link>
         </nav>
