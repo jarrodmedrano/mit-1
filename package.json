@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "next lint",
     "dev": "next dev",
-    "build": "next build && next export && touch ./out/.nojekyll",
+    "build": "next build && next export && touch ./out/.nojekyll && touch ./out/_next/.nojekyll && echo 'jarrodmedrano.github.io/mit-1' > ./out/CNAME",
     "start": "next start --port 80"
   },
   "dependencies": {
