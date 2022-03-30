@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "lint": "next lint",
-    "replaceFilePaths": "node ./replacer.js",
+    "replaceFilePaths": "node replacer.js",
     "dev": "next dev",
     "build": "next build && next export -o build && npm run replaceFilePaths",
     "start": "next start",
